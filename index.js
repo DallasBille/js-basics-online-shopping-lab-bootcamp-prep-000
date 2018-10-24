@@ -16,12 +16,12 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var list=[]
+  var list=[];
   for( i=0; i<cart.length; i++){
     list.push(`In your cart, you have ${cart.itemName[i]} at $${cart.itemPrice[i]}.`)
   }
 return list
-console.log(list)
+
 
 if (cart.length===0){
 return "Your shopping cart is empty."
