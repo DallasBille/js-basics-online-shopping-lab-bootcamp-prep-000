@@ -20,7 +20,7 @@ function viewCart() {
   for(let i=0; i<cart.length; i++){
     list.push(`In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`)
 
-return list
+return list.join()
 }
 
 if (cart.length===0){
