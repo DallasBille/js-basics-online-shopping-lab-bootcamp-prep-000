@@ -21,11 +21,11 @@ function viewCart() {
     list.push(`In your cart, you have ${itemName[i]} at $${itemPrice[i]}.`)
   }
 return list
-}
 
 if (cart.length===0){
-return "Your shopping cart is empty."
 
+return "Your shopping cart is empty."
+}
 }
 
    
