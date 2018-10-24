@@ -19,7 +19,7 @@ function viewCart() {
   var list=[];
   for(let i=0; i<cart.length; i++){
     list.push(`In your cart, you have ${itemName[i]} at $${itemPrice[i]}.`)
-  }
+
 return list
 }
 
@@ -27,8 +27,7 @@ if (cart.length===0){
 
 return "Your shopping cart is empty."
 }
-
-
+}
    
 
 function total() {
