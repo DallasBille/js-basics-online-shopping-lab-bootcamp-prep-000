@@ -22,9 +22,12 @@ function viewCart() {
   }
 return list
 
-}
+
 if (cart.length===0){
-return "Your shopping cart is empty."}
+return "Your shopping cart is empty."
+
+}
+}
 
    
 
