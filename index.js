@@ -18,7 +18,7 @@ function addToCart(item) {
 function viewCart() {
   var list=[];
   for(let i=0; i<cart.length; i++){
-    list.push(`In your cart, you have ${cart.itemName} at $${cart.itemPrice}.`)
+    list.push(`In your cart, you have ${cart[i]} at $${cart[i]}.`)
 
 return list.join()
 }
