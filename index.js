@@ -18,7 +18,7 @@ function addToCart(item) {
 function viewCart() {
   var list=[]
   for( i=0; i<cart.length; i++){
-    list.push(cart.itemName[i])
+    list.push(cart[i].itemName)
   }
 
 
